@@ -45,7 +45,12 @@
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
-        <!-- #Header-image -->
+		<!-- #Header-image -->
+	    <?php if ( get_header_image() ) : ?>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+			<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+		</a>
+		<?php endif; // End header image check. ?>
         </div>
 	</header><!-- #masthead -->
 
