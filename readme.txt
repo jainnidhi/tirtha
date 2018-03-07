@@ -52,7 +52,7 @@ source: http://fortawesome.github.io/Font-Awesome
 = 1.0.1 =
 * Updated readme.txt file
 * Added Custom logo option
-* Fixed esc_url for social links
+* Fixed sanitization for social links
 
 = 1.0.0 =
 * Initial release
