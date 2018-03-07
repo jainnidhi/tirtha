@@ -27,8 +27,10 @@
 	<header id="masthead" class="site-header" role="banner">
         <div class="wrap">
 		<div class="site-branding">
-			<?php if( get_theme_mod('header_logo') ) { ?>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo esc_url( get_theme_mod( 'header_logo' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
+			<?php $custom_logo_id = get_theme_mod( 'custom_logo' );
+					$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+			if( has_custom_logo() ) { ?>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo esc_url( $logo[0] ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a>
 			<?php } else { ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php

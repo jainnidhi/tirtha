@@ -71,22 +71,5 @@ function tirtha_customize_register( $wp_customize ) {
 			'priority' => 4,
 	) );
 
-	$wp_customize->add_section( 'header_logo_settings', array(
-			'title'    => __('Header Logo', 'tirtha'),
-			'priority' => 40,
-	) );
-
-	$wp_customize->add_setting( 'header_logo', array(
-		'transport' => 'postMessage',
-		'sanitize_callback' => 'esc_url_raw'
-	) );
-
-	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'header_logo', array(
-    'label'    => __( 'Upload Logo', 'tirtha' ),
-    'section'  => 'header_logo_settings',
-    'settings' => 'header_logo',
-) ) );
-
-
 }
 add_action( 'customize_register', 'tirtha_customize_register' );

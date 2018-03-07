@@ -76,6 +76,8 @@ function tirtha_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	add_theme_support( 'custom-logo' );
 }
 endif;
 add_action( 'after_setup_theme', 'tirtha_setup' );
@@ -140,7 +142,7 @@ add_action( 'wp_enqueue_scripts', 'tirtha_scripts' );
 /**
  * Implement the Custom Header feature.
  */
-require get_template_directory() . '/inc/custom-header.php';
+require get_template_directory() . '/inc/custom-logo.php';
 
 /**
  * Custom template tags for this theme.

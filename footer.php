@@ -25,19 +25,19 @@
                 <div class="footer-right">
                     <ul class="alignleft">
                         <?php if( get_theme_mod('Facebook') ) : ?>
-                <li class="social-facebook"><a href="<?php echo get_theme_mod('Facebook') ?>"><i class="fa fa-facebook"></i></a>
+                <li class="social-facebook"><a href="<?php echo esc_url(get_theme_mod('Facebook')) ?>"><i class="fa fa-facebook"></i></a>
                         <?php endif; ?>
                 </li>
                         <?php if( get_theme_mod('Google_plus') ) : ?>
-                <li class="social-gplus"><a href="<?php echo get_theme_mod('Google_plus') ?>"><i class="fa fa-google-plus"></i></a>
+                <li class="social-gplus"><a href="<?php echo esc_url(get_theme_mod('Google_plus')) ?>"><i class="fa fa-google-plus"></i></a>
                         <?php endif; ?>
                 </li>
                         <?php if( get_theme_mod('Linkedin') ) : ?>
-                <li class="social-linkedin"><a href="<?php echo get_theme_mod('Linkedin') ?>"><i class="fa fa-linkedin"></i></a>
+                <li class="social-linkedin"><a href="<?php echo esc_url(get_theme_mod('Linkedin')) ?>"><i class="fa fa-linkedin"></i></a>
                         <?php endif; ?>
                 </li>
                         <?php if( get_theme_mod('Twitter') ) : ?>
-                <li class="social-twitter"><a href="<?php echo get_theme_mod('Twitter') ?>"><i class="fa fa-twitter"></i></a>
+                <li class="social-twitter"><a href="<?php echo esc_url(get_theme_mod('Twitter')) ?>"><i class="fa fa-twitter"></i></a>
                         <?php endif; ?>
                 </li>
             </ul>

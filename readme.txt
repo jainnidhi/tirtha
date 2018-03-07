@@ -1,25 +1,27 @@
 === tirtha ===
 
 Contributors: Nidhi Jain
-Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
-
 Requires at least: 4.0
-Tested up to: 4.8.1
-Version: 1.0.0
+Tested up to: 4.7.4
+Version: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-A starter theme called tirtha.
+Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
 == Description ==
 
-Tirtha is responsive blogging theme, perfect for everyone who wants to start personal blog. The theme is well designed, clean, efficient and does not required any other things. User can easily add social icons through customizer for Facebook, Google Plus, Linkedin, Twitter.
+Tirtha is responsive blogging theme, perfect for who wants to start blog for religious places. The theme is well designed, clean, efficient and does not required any other things. User can easily add social icons through customizer for Facebook, Google Plus, Linkedin, Twitter.
 
 == Installation ==
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
+
+== Copyright ==
+
+Tirtha WordPress Theme, Copyright 2018 Nidhi Jain
+Tirtha is distributed under the terms of the GNU GPL
 
 == Frequently Asked Questions ==
 
@@ -48,7 +50,9 @@ source: http://fortawesome.github.io/Font-Awesome
 == Changelog ==
 
 = 1.0.1 =
-* Fixed issues using NS theme check plugin
+* Updated readme.txt file
+* Added Custom logo option
+* Fixed esc_url for social links
 
 = 1.0.0 =
 * Initial release
