@@ -3,7 +3,7 @@
 Contributors: Nidhi Jain
 Requires at least: 4.0
 Tested up to: 4.7.4
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
@@ -49,7 +49,7 @@ source: http://fortawesome.github.io/Font-Awesome
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.2 =
 * Updated readme.txt file
 * Added Custom logo option
 * Fixed sanitization for social links
